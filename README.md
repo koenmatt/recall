@@ -44,7 +44,7 @@ Navigate to your [zoom profile](https://zoom.us/profile) on zooms web app and cl
 
 Next, open up your Zoom Desktop App. Click your profile, then **Settings > Accessibility** and click Always show captions.
 
-### Key & Webhook configs 
+### Recall Key & Webhook configs 
 
 Add your AWS Keys to your Recall account. 
 
