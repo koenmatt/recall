@@ -165,7 +165,6 @@ def webhook_handler():
 
     if event == 'bot.status_change':
         # Parse status type into a more readable form for the terminal.
-        print(request_body)
         print(f"\033[1m{request_body['data']['status']['code'].replace('_', ' ').title()}...\033[0m")     
 
     # and request_body["data"]["transcript"]["speaker"] == 'Matthew Koen'
