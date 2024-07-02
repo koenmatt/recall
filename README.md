@@ -21,7 +21,9 @@ NGROK_BASE_URL = "YOUR NGROK URL"
 
 Navigate to the [Zoom App Marketplace](https://marketplace.zoom.us/) and click **Develop** **>** **Build App** **>** **General App** **>** **Create** 
 
-Under **Basic Information** **>** **OAuth Information**, set the OAuth Redirect URL to https:// followed by your Ngrok static URL (that we configured about) followed by /redirect: https://<YOUR_NGROK_STATIC_URL/redirect
+Under **Basic Information** **>** **OAuth Information**, set the OAuth Redirect URL to 
+
+`https://<YOUR_NGROK_STATIC_URL/redirect`
 
 Build your app following their onboarding process, ensuring that **Embed** **>** **Meeting SDK** is turned on.
 
