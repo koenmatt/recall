@@ -16,9 +16,11 @@ WELCOME_MESSAGE = "Hey! Thanks for letting me into the zoom call. My name is Rec
 
 INVITE_LINK = "https://us04web.zoom.us/j/78045732635?pwd=aPS7s27RmqBWBP1FSRpcNVSDza56Pb.1"
 
-WEBHOOK_URL = "https://emerging-clam-star.ngrok-free.app/webhooks/transcription"
+NGROK_BASE_URL = "YOUR NGROK URL"  # https://ngrok.com/
 
-NGROK_BASE_URL = ""
+WEBHOOK_URL = f"https://{NGROK_BASE_URL}/webhooks/transcription"
+
+
 
 def get_bot_payload():
     """
