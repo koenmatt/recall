@@ -4,7 +4,7 @@ import base64
 import os
 import json
 
-OPEN_AI_KEY="sk-proj-q6BSzVRt5SiFl9u1O57oT3BlbkFJ3sjkvfOiMnj32W4fxQgN"  # Replace "YOUR_OPENAI_KEY" with your OpenAI key
+OPEN_AI_KEY="YOUR-OPENAI-KEY"  # Replace "YOUR_OPENAI_KEY" with your OpenAI key
 
 def create_audio(text):
   """
