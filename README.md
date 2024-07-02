@@ -32,10 +32,11 @@ Run the following command in your terminal, replacing <YOUR_NGROK_STATIC_URL> wi
 ```bash
 ngrok http --domain=<YOUR_NGROK_STATIC_URL>.ngrok-free.app 8080
 ```
+Add your Client ID and Client Secret to Recall [here]((https://us-west-2.recall.ai/dashboard/platforms/zoom).
 
 Click **Embed > Add App** and follow the auth process. You should see a message saying "You have authorized your Zoom account with your Recall app"
 
-### Zoom Settings Config
+### Zoom Desktop App Settings Config
 
 
 ```bash
