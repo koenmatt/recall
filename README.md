@@ -1,1 +1,1 @@
-# Conversational AI in Zoom with [link text]([URL](https://www.recall.ai/))
+# Conversational AI in Zoom with [Recall.ai](https://www.recall.ai/)
