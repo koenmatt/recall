@@ -8,6 +8,9 @@ Running this app locally first requires a few configurations.
 
 ### Zoom Developer App
 
+Navigate to the [Zoom App Marketplace](https://marketplace.zoom.us/) and click **Develop** **>**
+### Zoom Settings Config
+
 ### Ngrok
 
 
