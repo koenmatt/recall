@@ -11,7 +11,7 @@ We use Ngrok to allow for local webhook development and for authenticating our a
 
 Follow the steps [here](https://docs.recall.ai/docs/local-webhook-development#ngrok-setup) for setup instructions. 
 
-Be sure to input your Ngrok static URL here:
+In app.py, input your Ngrok static URL here, on line 19:
 
 ```python
 NGROK_BASE_URL = "YOUR NGROK URL"
