@@ -55,6 +55,11 @@ Finally, in your [Recall](https://api.recall.ai/dashboard/webhooks/) account, cl
 Now you're ready to go!
 
 # Running the app
+Install the requirements:
+
+```bash
+pip install -r requirements.txt
+```
 
 To run the app, start a Zoom meeting in the Zoom Desktop App. Copy the invite link and paste it into line 17 of app.py
 
@@ -62,12 +67,7 @@ To run the app, start a Zoom meeting in the Zoom Desktop App. Copy the invite li
 INVITE_LINK = "YOUR INVITE LINK"
 ```
 
-Next, install the requirements and start up the Flask server:
-
-```bash
-pip install -r requirements.txt
-```
-
+Next, start up the Flask server:
 ```bash
 python3 app.py
 ```
